@@ -1,0 +1,32 @@
+site_name: Archive System Blog
+site_description: Building a College Document Management System
+site_author: arthurcc
+copyright: Copyright &copy; 2026 arthurcc
+
+theme:
+  name: material
+  palette:
+    primary: orange
+    accent: orange
+    scheme: slate
+  features:
+    - navigation.sections
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Blog: blog/index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - fenced_code
+  - tables
+  - admonition
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/arthiccc
