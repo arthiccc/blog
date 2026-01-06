@@ -4,19 +4,33 @@
     margin: 0 auto;
 }
 
-/* Style tables */
-table {
-    width: 100% !important;
-    font-size: 0.9rem !important;
-}
-
 /* Scale images */
 .md-content img {
     max-width: 100% !important;
     height: auto !important;
 }
 
-/* Fix table overflow */
+/* Style tables - make them responsive */
 .md-content table {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 0.85rem !important;
+    display: block !important;
     overflow-x: auto !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+/* Table cells */
+.md-content table td,
+.md-content table th {
+    min-width: 100px !important;
+    padding: 0.5rem !important;
+}
+
+/* Narrow table container */
+.md-content .md-typeset__table {
+    display: block !important;
+    overflow-x: auto !important;
+    width: 100% !important;
 }
