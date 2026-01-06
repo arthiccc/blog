@@ -1,0 +1,11 @@
+site/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
